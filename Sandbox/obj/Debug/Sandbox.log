@@ -1,0 +1,4 @@
+﻿  SandboxApp.cpp
+C:\Users\kryst\OneDrive\Plocha\dev\GlowEngine\GlowEngine\src\GlowEngine\Log.h(5,10): error C1083: Cannot open include file: 'spdlog/spdlog.h': No such file or directory
+  (compiling source file 'src/SandboxApp.cpp')
+  

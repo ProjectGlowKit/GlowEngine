@@ -1,0 +1,3 @@
+[submodule "GlowEngine/thirdparty/spdlog"]
+	path = GlowEngine/thirdparty/spdlog
+	url = https://github.com/gabime/spdlog

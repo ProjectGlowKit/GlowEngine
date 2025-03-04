@@ -6,6 +6,10 @@
 #include "GlowEngine/Application.h"
 //- Application - - - - - - -
 
-//- EntryPoint - - - - - - - 
+//- GlowEngine and Client Logger - - - - - - -
+#include "GlowEngine/Log.h"
+//- GlowEngine and Client Logger - - - - - - -
+
+//- Application EntryPoint - - - - - - - 
 #include "GlowEngine/EntryPoint.h"
-//- EntryPoint - - - - - - -
+//- Application EntryPoint - - - - - - -
