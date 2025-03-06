@@ -10,3 +10,4 @@
 	#error Glow Engine only supports Windows
 #endif //GWE_PLATFORM_WINDOWS
 
+#define BIT(x) (1 << x)

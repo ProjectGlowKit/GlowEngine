@@ -4,6 +4,9 @@
     <Filter Include="GlowEngine">
       <UniqueIdentifier>{341AEE5A-20D2-2FA8-89D9-080475B0CA98}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GlowEngine\Events">
+      <UniqueIdentifier>{98C3A17B-04DA-9F11-4D51-2B33B9A67099}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\GlowEngine.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\GlowEngine\EntryPoint.h">
       <Filter>GlowEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlowEngine\Events\ApplicationEvent.h">
+      <Filter>GlowEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlowEngine\Events\Event.h">
+      <Filter>GlowEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlowEngine\Events\KeyEvent.h">
+      <Filter>GlowEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlowEngine\Events\MouseEvent.h">
+      <Filter>GlowEngine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\GlowEngine\Log.h">
       <Filter>GlowEngine</Filter>

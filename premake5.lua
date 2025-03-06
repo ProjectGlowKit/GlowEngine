@@ -25,6 +25,7 @@ project "GlowEngine"
 
     includedirs
     {
+        "%{prj.name}/src",
         "%{prj.name}/thirdparty/spdlog/include"
     }
 
@@ -32,6 +33,9 @@ project "GlowEngine"
         cppdialect "C++17"
         staticruntime "On"
         systemversion "latest"
+
+    filter "action:vs*"
+        buildoptions { "/utf-8" }
 
         defines
         {
@@ -84,6 +88,9 @@ project "Sandbox"
         cppdialect "C++17"
         staticruntime "On"
         systemversion "latest"
+    
+    filter "action:vs*"
+        buildoptions { "/utf-8" }
 
         defines
         {
